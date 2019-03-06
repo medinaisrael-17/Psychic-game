@@ -37,6 +37,7 @@ document.onkeyup = function (event) {
     userGuess = event.key;
    
     //This will evaluate the guesses 
+    
 
     //If they are the same then it will count as a win and start over
     if (userGuess === computerGuess) {
